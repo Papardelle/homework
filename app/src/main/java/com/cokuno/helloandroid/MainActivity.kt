@@ -15,12 +15,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        nameTextView = findViewById(R.id.hello_android_one)
+        nameTextView = findViewById(R.id.change_text)
         answerButton = findViewById(R.id.button1)
     }
 
     fun onAnswerButton(view: View) {
-        nameTextView.text = getString(R.string.hello_android_two)
+        nameTextView.text = getString(R.string.hello_android_one)
     }
 
 }
